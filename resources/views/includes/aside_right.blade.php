@@ -1,0 +1,1 @@
+{{-- rightside column content, 3 cols, hidden on phones --}}
