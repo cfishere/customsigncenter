@@ -1,1 +1,1 @@
-{{-- aside left content --}}
+{{-- aside left content - 3 cols, hidden on phones --}}

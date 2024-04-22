@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE calendars [
+<!ENTITY nbsp "&#160;">
+<!ENTITY amp "&#38;#38;">
+<!ELEMENT calendars (calendar)>
+<!ELEMENT calendar (year)*>
+<!ELEMENT year (month)*>
+<!ELEMENT month (week)*>
+<!ELEMENT week (day)*>
+<!-- * 'day' can have zero or more 'job' child elements --><!ELEMENT day (job)*>
+<!ELEMENT job (#PCDATA)>
+<!ATTLIST calendar id CDATA #REQUIRED>
+<!ATTLIST year ordinal CDATA #REQUIRED>
+<!ATTLIST month ordinal CDATA #REQUIRED>
+<!ATTLIST month name CDATA #REQUIRED>
+<!ATTLIST week ordinal CDATA #REQUIRED>
+<!ATTLIST day ordinal CDATA #REQUIRED>
+<!ATTLIST day name CDATA #REQUIRED>
+<!ATTLIST day date CDATA #REQUIRED>
+<!ATTLIST job number CDATA #REQUIRED>
+]>
+<calendars>
+  <calendar id="Outdoor Images">
+    <year ordinal="2022">
+      <month ordinal="11" name="November">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date="1"/>
+          <day ordinal="4" name="Wednesday" date="2"/>
+          <day ordinal="5" name="Thursday" date="3"/>
+          <day ordinal="6" name="Friday" date="4"/>
+          <day ordinal="7" name="Saturday" date="5"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="6"/>
+          <day ordinal="9" name="Monday" date="7"/>
+          <day ordinal="10" name="Tuesday" date="8"/>
+          <day ordinal="11" name="Wednesday" date="9"/>
+          <day ordinal="12" name="Thursday" date="10"/>
+          <day ordinal="13" name="Friday" date="11"/>
+          <day ordinal="14" name="Saturday" date="12"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="13"/>
+          <day ordinal="16" name="Monday" date="14"/>
+          <day ordinal="17" name="Tuesday" date="15"/>
+          <day ordinal="18" name="Wednesday" date="16"/>
+          <day ordinal="19" name="Thursday" date="17"/>
+          <day ordinal="20" name="Friday" date="18"/>
+          <day ordinal="21" name="Saturday" date="19"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="20"/>
+          <day ordinal="23" name="Monday" date="21"/>
+          <day ordinal="24" name="Tuesday" date="22"/>
+          <day ordinal="25" name="Wednesday" date="23"/>
+          <day ordinal="26" name="Thursday" date="24"/>
+          <day ordinal="27" name="Friday" date="25"/>
+          <day ordinal="28" name="Saturday" date="26"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="27"/>
+          <day ordinal="30" name="Monday" date="28"/>
+          <day ordinal="31" name="Tuesday" date="29"/>
+          <day ordinal="32" name="Wednesday" date="30"/>
+          <day ordinal="33" name="Thursday" date=""/>
+          <day ordinal="34" name="Friday" date=""/>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="12" name="December">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date=""/>
+          <day ordinal="5" name="Thursday" date="1"/>
+          <day ordinal="6" name="Friday" date="2"/>
+          <day ordinal="7" name="Saturday" date="3"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="4"/>
+          <day ordinal="9" name="Monday" date="5"/>
+          <day ordinal="10" name="Tuesday" date="6"/>
+          <day ordinal="11" name="Wednesday" date="7"/>
+          <day ordinal="12" name="Thursday" date="8"/>
+          <day ordinal="13" name="Friday" date="9"/>
+          <day ordinal="14" name="Saturday" date="10"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="11"/>
+          <day ordinal="16" name="Monday" date="12"/>
+          <day ordinal="17" name="Tuesday" date="13"/>
+          <day ordinal="18" name="Wednesday" date="14"/>
+          <day ordinal="19" name="Thursday" date="15"/>
+          <day ordinal="20" name="Friday" date="16"/>
+          <day ordinal="21" name="Saturday" date="17"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="18"/>
+          <day ordinal="23" name="Monday" date="19"/>
+          <day ordinal="24" name="Tuesday" date="20"/>
+          <day ordinal="25" name="Wednesday" date="21"/>
+          <day ordinal="26" name="Thursday" date="22"/>
+          <day ordinal="27" name="Friday" date="23"/>
+          <day ordinal="28" name="Saturday" date="24"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="25"/>
+          <day ordinal="30" name="Monday" date="26"/>
+          <day ordinal="31" name="Tuesday" date="27"/>
+          <day ordinal="32" name="Wednesday" date="28"/>
+          <day ordinal="33" name="Thursday" date="29"/>
+          <day ordinal="34" name="Friday" date="30"/>
+          <day ordinal="35" name="Saturday" date="31"/>
+        </week>
+      </month>
+    </year>
+    <year ordinal="2023">
+      <month ordinal="1" name="January">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date="1"/>
+          <day ordinal="2" name="Monday" date="2"/>
+          <day ordinal="3" name="Tuesday" date="3"/>
+          <day ordinal="4" name="Wednesday" date="4"/>
+          <day ordinal="5" name="Thursday" date="5"/>
+          <day ordinal="6" name="Friday" date="6"/>
+          <day ordinal="7" name="Saturday" date="7"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="8"/>
+          <day ordinal="9" name="Monday" date="9"/>
+          <day ordinal="10" name="Tuesday" date="10"/>
+          <day ordinal="11" name="Wednesday" date="11"/>
+          <day ordinal="12" name="Thursday" date="12"/>
+          <day ordinal="13" name="Friday" date="13"/>
+          <day ordinal="14" name="Saturday" date="14"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="15"/>
+          <day ordinal="16" name="Monday" date="16"/>
+          <day ordinal="17" name="Tuesday" date="17"/>
+          <day ordinal="18" name="Wednesday" date="18"/>
+          <day ordinal="19" name="Thursday" date="19"/>
+          <day ordinal="20" name="Friday" date="20"/>
+          <day ordinal="21" name="Saturday" date="21"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="22"/>
+          <day ordinal="23" name="Monday" date="23"/>
+          <day ordinal="24" name="Tuesday" date="24"/>
+          <day ordinal="25" name="Wednesday" date="25"/>
+          <day ordinal="26" name="Thursday" date="26"/>
+          <day ordinal="27" name="Friday" date="27"/>
+          <day ordinal="28" name="Saturday" date="28"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="29"/>
+          <day ordinal="30" name="Monday" date="30"/>
+          <day ordinal="31" name="Tuesday" date="31"/>
+          <day ordinal="" name="Wednesday" date=""/>
+          <day ordinal="" name="Thursday" date=""/>
+          <day ordinal="" name="Friday" date=""/>
+          <day ordinal="" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="2" name="February">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date="1"/>
+          <day ordinal="5" name="Thursday" date="2"/>
+          <day ordinal="6" name="Friday" date="3"/>
+          <day ordinal="7" name="Saturday" date="4"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="5"/>
+          <day ordinal="9" name="Monday" date="6"/>
+          <day ordinal="10" name="Tuesday" date="7"/>
+          <day ordinal="11" name="Wednesday" date="8"/>
+          <day ordinal="12" name="Thursday" date="9"/>
+          <day ordinal="13" name="Friday" date="10"/>
+          <day ordinal="14" name="Saturday" date="11"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="12"/>
+          <day ordinal="16" name="Monday" date="13"/>
+          <day ordinal="17" name="Tuesday" date="14"/>
+          <day ordinal="18" name="Wednesday" date="15"/>
+          <day ordinal="19" name="Thursday" date="16"/>
+          <day ordinal="20" name="Friday" date="17"/>
+          <day ordinal="21" name="Saturday" date="18"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="19"/>
+          <day ordinal="23" name="Monday" date="20"/>
+          <day ordinal="24" name="Tuesday" date="21"/>
+          <day ordinal="25" name="Wednesday" date="22"/>
+          <day ordinal="26" name="Thursday" date="23"/>
+          <day ordinal="27" name="Friday" date="24"/>
+          <day ordinal="28" name="Saturday" date="25"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="26"/>
+          <day ordinal="30" name="Monday" date="27">
+            <job number="2924-1">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2924-1"#$#~~i class="ic-flag"#$#*^*i#$#2924-1*^*span#$# Customer Sign Center / Tire Choice #1367~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Dundee - Survey Completed - Pylon: Alum Panels (No faces)*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: NO PERMIT REQ'D*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="31" name="Tuesday" date="28"/>
+          <day ordinal="32" name="Wednesday" date=""/>
+          <day ordinal="33" name="Thursday" date=""/>
+          <day ordinal="34" name="Friday" date=""/>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="3" name="March">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date="1">
+            <job number="2981">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_2981"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#2981*^*span#$# Ariani Restorante Italiano*^*li#$#</job>
+          </day>
+          <day ordinal="5" name="Thursday" date="2">
+            <job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 120736 CSC / Wendy's #02524 Pt. Charlotte (Veterans Blvd) - HIGH RISE PYLON - Straighten/reset: Pre-sell menu, Pivoting Canopy, Directional Sign*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: HI RISE WORK BY CSC STAFF*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="6" name="Friday" date="3">
+            <job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 100055-1 CSC / Wendy's #00866 / Ft. Myers (McGregor Blvd) - PYLON (WP141): Retainer as req'd, LED Retro, New faces, cameo logo add-ons &amp; Pole cover - D/T: Rescure Pivoting canopy and replace perf. metal (SVC AS REQ'D AT T&amp;M) - EVO: Repair/replace as required. *^*span#$#*^*li#$#</job>
+            <job number="100055-1">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" #$#  ~~i class="ic-flag"*#$# *^*i#$#	 ~~span id="job_100055-1" #$#100055-1*^*span#$# Custom Sign Center / Wendy's #00866*^*li#$# </job>
+          </day>
+          <day ordinal="7" name="Saturday" date="4"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="5"/>
+          <day ordinal="9" name="Monday" date="6">
+            <job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 119147-2 CSC / Wendy's #09678 / Pt. Charlotte (Cochran Blvd) - PYLON (WP100): Main ID cabinet retainer as req'd, 1 new main ID face, cameo logo add-ons, 1 new RB face - D/T: Pre-sell menu Poly face - BLDG: Blade Wall trim cover, EVO and silver trim repair/replace as needed.*^*span#$#*^*li#$#</job>
+            <job number="119147-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" #$#  ~~i class="ic-flag"*#$# *^*i#$#	 ~~span id="job_119147-2" #$#119147-2*^*span#$# Custom Sign Center / Wendy's #09678*^*li#$# </job>
+          </day>
+          <day ordinal="10" name="Tuesday" date="7">
+            <job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 120690 CSC / TC #1259 (DO WE NEED SVY??) - MONUMENT: 2 ea. 2'-6"x12' faces - BLDG: Rmv. 1 ea. approx 4'x14' sign cabinet &amp; install 1 set 16"/13" RW CL w/ 2'-8"x29' backer*^*span#$#*^*li#$#</job>
+            <job number="120690">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" #$#  ~~i class="ic-flag"*#$# *^*i#$#	 ~~span id="job_120690" #$#120690*^*span#$# CSC / Tire Choice #1259*^*li#$# </job>
+          </day>
+          <day ordinal="11" name="Wednesday" date="8">
+            <job number="2925-1">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2925-1"#$#2925-1*^*span#$# Custom Sign Center / Tire Choice #1398~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Winter Haven - SVY COMPLETED 12/22/22) PYLON: LED retro (14 ea 42" lamps) &amp; reface (2 ea 3'-10" x15' pn faces - NO PERMIT REQ'D*^*span#$#*^*li#$#</job>
+            <job number="120845">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" #$#  ~~i class="ic-flag"*#$# *^*i#$#	 ~~span id="job_120845" #$#120845*^*span#$# Custom Sign Center / Tire Choice #1398*^*li#$# </job>
+          </day>
+          <day ordinal="12" name="Thursday" date="9"/>
+          <day ordinal="13" name="Friday" date="10"/>
+          <day ordinal="14" name="Saturday" date="11"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="12"/>
+          <day ordinal="16" name="Monday" date="13"/>
+          <day ordinal="17" name="Tuesday" date="14"/>
+          <day ordinal="18" name="Wednesday" date="15"/>
+          <day ordinal="19" name="Thursday" date="16"/>
+          <day ordinal="20" name="Friday" date="17"/>
+          <day ordinal="21" name="Saturday" date="18"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="19"/>
+          <day ordinal="23" name="Monday" date="20">
+            <job number="120625">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_120625"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#120625*^*span#$# Custom Sign Center / Wendy's #00334~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: N. Fty. Myers - PHASE 1 / PYLON: Paint, LED retro, repair/replace retainer and socket trays, reface (2) 7'-2"x14' &amp; (2) 6'-2"x9'*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="24" name="Tuesday" date="21">
+            <job number="120596">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_120596"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#120596*^*span#$# Custom Sign Center / Tire Choice #1596~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Cp. Coral (NE Pine Island Rd) - CL face, Letter "I" (Qty 1)*^*span#$#*^*li#$#</job>
+            <job number="121223">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_121223"#$#~~i class="ic-i-comp-alt"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#121223*^*span#$# CSC / Tire Choice #1523~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Cp. Coral (SW Pine Island Rd) - MONUMENT: 2 FACES (4'X11')*^*span#$#*^*li#$#</job>
+            <job number="103720-1">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_103720-1"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#103720-1*^*span#$# Custom Sign Center / Wendy's #01316~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Cp. Coral (Del Prado Blvd) - PHAS 1 / PYLON (Non-Std): Rmv. border neon and seal holes, LED retro, paint &amp; reface (4'x7')*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="25" name="Wednesday" date="22">
+            <job number="117962-3">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_117962-3"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#117962-3*^*span#$# Custom Sign Center / Wendy's #00583~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ft. Myers (Cleveland Ave) NO PMT REQ'D - PYLON: LED retro, paint &amp; faces (7'-2"x14' and 6'-2"x9') - PIVOTING CANOPY: Inspect and resecure pole - EVO:  Repair/replace as req'd.*^*span#$#*^*li#$#</job>
+            <job number="120721">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_120721"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#120721*^*span#$# CSC / Wendy's #07949~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ft. Myers (6 Mile Cypress Pkwy) - PYLON (WP40): LED retro, paint, faces &amp; add cameo logos*^*span#$#*^*li#$#</job>
+            <job number="admin-note">~~li class="lineEntry t2" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Cummings / 7-11 #34872 / Orlando - Meet Inspector*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="26" name="Thursday" date="23">
+            <job number="120735">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_120735"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#120735*^*span#$# CSC / Wendy's #01638~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ft. Myers (Daniels Pkwy) PHASE 1 / PYLON (Non-Std): LED retro, paint &amp; reface (6'-10"x7'-3" and 4'-7"x7'-3")*^*span#$#*^*li#$#</job>
+            <job number="copyof120721">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof120721"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#120721 [CONT.] *^*span#$# CSC / Wendy's #07949~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ft. Myers (6 Mile Cypress Pkwy) - PYLON (WP40): LED retro, paint, faces &amp; add cameo logos*^*span#$#*^*li#$#</job>
+            <job number="120584">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_120584"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#120584*^*span#$# Custom Sign Center / Tire Choice #1590~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ft. Myers - PYLON: Service &amp; 1 ea. 3'x12' pan face - CL: 1 new "H" face - NO PMT REQ'D*^*span#$#*^*li#$#</job>
+            <job number="121317">~~li class="lineEntry t2" title="Right-Click for Options"#$#  	 ~~span id="job_121317"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#121317*^*span#$# Ruggles Sign / Lucky Brand Jeans #2515~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando (EARLY START - OFF SITE BY 9:30AM) - Resecure or Remove Blade Sign*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="27" name="Friday" date="24">
+            <job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: BRING BACK WENDY'S MELBOURNE PRODUCT*^*span#$#*^*li#$#</job>
+            <job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2760 (Invoiced) CSC / Wendy's #13451 / North Port - MONUMENT: Install Pole Cover &amp; New Address Panel - AP-25 (NEED HARDWARE FROM CSC) Install &amp; leave RB letters/storage box on site - STICKERS: Apply misc. stickers - PERMIT: Bring and post new pole cover permit drawings/SEDs. *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: ALL INSPECTIONS SCHEDULED FOR MORNING*^*span#$#*^*li#$#</job>
+            <job number="2975">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2975"#$#2975*^*span#$# CSC / Wendy's #13676~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: N. Venic - TIM WILL LOOK AT PYLON &amp; DECIDE IF TECH SVY REQ'D.*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SVY 2 PYLONS*^*span#$#*^*li#$#</job>
+            <job number="120783">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_120783"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#120783*^*span#$# Custom Sign Center / Tire Choice #1388~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Mulberry - PYLON: 2 ea. 3'-4"x12' pan faces - NO PMT REQ'D*^*span#$#*^*li#$#</job>
+            <job number="120782">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_120782"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#120782*^*span#$# Custom Sign Center / Tire Choice #1383~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Lake Wales - PYLON: Replace D-bar, retainer &amp; wireway covers, R&amp;R 2 ea. 4'-8"x8' &amp; 2'x8' faces. POST PERMIT*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="28" name="Saturday" date="25">
+            <job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CSC Wendy's / Miami - Elect. Permit &amp; Insp. issues for D/T Window Canopies*^*span#$#*^*li#$#</job>
+          </day>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="26"/>
+          <day ordinal="30" name="Monday" date="27">
+            <job number="2889-2">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2889-2"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#2889-2*^*span#$# Jones Sign / Herc Rentals~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Rockledge/Viera - 2 sets RW CL, Monument face overlays, Interior FCO, Doory vinyl*^*span#$#*^*li#$#</job>
+            <job number="2958">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2958"#$#~~i class="ic-p-insp-req"#$#*^*i#$#2958*^*span#$# CSC / Tire Choice #1264~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Lutz - Survey / Permit &amp; Install*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: NEEDS SVY*^*span#$#*^*li#$#</job>
+            <job number="admin-note">~~li class="lineEntry t2" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2929 CSC / Tire Choice #1248 / Tampa (Racetrack Rd) - Survey*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="31" name="Tuesday" date="28">
+            <job number="copyof2889-2">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof2889-2"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2889-2 [CONT.] *^*span#$# Jones Sign / Herc Rentals~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Rockledge/Viera*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2 sets RW CL, Monument Face Overlays, Interior FCO, Door vinyl*^*span#$#*^*li#$#</job>
+            <job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#~~span id="admin-note" contenteditable="false"#$#~~i class="ic-users"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 120933 CSC / Tire Choice #1302 / Melbourne - 1 ea. 4'x15' wall sign face - Service wall sign*^*span#$#*^*li#$#</job>
+            <job number="121296">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_121296"#$#~~i class="ic-users"#$#*^*i#$#121296*^*span#$# Persona / Ramada #57955~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ramada / Cocoa - Pylon: Svy &amp; Banners - MUST BE LAST JOB OF DAY. *^*span#$#*^*li#$#</job>
+            <job number="2898-2">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  	 ~~span id="job_2898-2"#$#~~i class="ic-flag"#$#*^*i#$#2898-2*^*span#$# Allen Industries (OH) / Checkers #6329~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Deland - PYLON: LED Retro, Paint, 2 ea. 7'x14' pan faces - DIRECTIONAL: New foundation (18 ea. 60LB bags sakcrete, install sign - WALL SIGN: Service only (track labor and mtrls)*^*span#$#*^*li#$#</job>
+            <job number="120933">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" #$#  ~~i class="ic-flag"*#$# *^*i#$#	 ~~span id="job_120933" #$#120933*^*span#$# Custom Sign Center / Tire Choice #1302*^*li#$# </job>
+          </day>
+          <day ordinal="32" name="Wednesday" date="29">
+            <job number="2938">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2938"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2938*^*span#$# Engine Power Source~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - SIGNS/FACE ON SITE: Mount/wire 1 ea. 4'x6' and 1 ea. 5'x6' wall cabinet. *^*span#$#*^*li#$#</job>
+            <job number="121224-1">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_121224-1"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#121224-1*^*span#$# Frontier Development / Chipoltle Mexican Grille~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: R&amp;R 1 wall pack on rear elev. *^*span#$#*^*li#$#</job>
+            <job number="2990-1">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_2990-1"#$#2990-1*^*span#$# Cummings /BJ's Wholesale*^*li#$#</job>
+          </day>
+          <day ordinal="33" name="Thursday" date="30">
+            <job number="2939">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_2939"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2939*^*span#$# ROJS LLC / Charlies~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - Exterior: 3'x7' channel can (remote wiring) - INTERIOR: 2'-6"x5'-9" channel can &amp; 20" CL on backer (remote wiring)*^*span#$#*^*li#$#</job>
+            <job number="admin-note">~~li class="lineEntry t2" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Cowboys*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="34" name="Friday" date="31">
+            <job number="admin-note">~~li class="lineEntry t4" title="Right Click for Options" style=""#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Check on Status of Ash's Truck*^*span#$#*^*li#$#</job>
+            <job number="121186">~~li class="lineEntry t1" title="Right-Click for Options" contenteditable="false"#$#  	 ~~span id="job_121186"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#121186*^*span#$# Ruggles Sign / Pet Supermarket #485*^*li#$#</job>
+            <job number="copyof&gt;">~~li class="lineEntry t2" title="Right Click for Options"#$#~~span contenteditable="false" class="copyof&gt;"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Cowboys*^*span#$#*^*li#$#</job>
+            <job number="121319">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" #$#  ~~i class="ic-flag"*#$# *^*i#$#	 ~~span id="job_121319" #$#121319*^*span#$# The Beach*^*li#$# </job>
+          </day>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="4" name="April">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date=""/>
+          <day ordinal="5" name="Thursday" date=""/>
+          <day ordinal="6" name="Friday" date=""/>
+          <day ordinal="7" name="Saturday" date="1"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="2"/>
+          <day ordinal="9" name="Monday" date="3">
+            <job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: ALL PRODUCT FOR THIS WEEK TO DELIVER TO WENDY'S #09669*^*span#$#*^*li#$#</job>
+            <job number="2886">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_2886"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2886*^*span#$# Custom Sign Center / Wendy's #09669~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Jax (New Berlin Rd) - BLDG. 1 CL 36" flush, 1 CL 36" RW, 40' EVO &amp; silver trim - INTERIOR: 2 silver queues, 1 RHR, 1 menu (7 panel straight) - MONUMENT WORK IS COMPLETED*^*span#$#*^*li#$#</job>
+            <job number="copyof2886">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2886"#$#2886 [CONT.] *^*span#$# Custom Sign Center / Wendy's #09669~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Jax (New Berlin Rd) - BLDG. 1 CL 36" flush, 1 CL 36" RW, 40' EVO &amp; silver trim - INTERIOR: 2 silver queues, 1 RHR, 1 menu (7 panel straight) - MONUMENT WORK IS COMPLETED*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="10" name="Tuesday" date="4">
+            <job number="admin-note">~~li class="lineEntry t5" title="Right Click for Options" style=""#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Pat - In at 9AM*^*span#$#*^*li#$#</job>
+            <job number="copyof2886 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2886 [CONT.]"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2886 [CONT.] *^*span#$# Custom Sign Center / Wendy's #09669~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Jax (New Berlin Rd) - BLDG. 1 CL 36" flush, 1 CL 36" RW, 40' EVO &amp; silver trim - INTERIOR: 2 silver queues, 1 RHR, 1 menu (7 panel straight) - MONUMENT WORK IS COMPLETED*^*span#$#*^*li#$#</job>
+            <job number="copyof2886">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2886"#$#2886 [CONT.] *^*span#$# Custom Sign Center / Wendy's #09669~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Jax (New Berlin Rd) - BLDG. 1 CL 36" flush, 1 CL 36" RW, 40' EVO &amp; silver trim - INTERIOR: 2 silver queues, 1 RHR, 1 menu (7 panel straight) - MONUMENT WORK IS COMPLETED*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="11" name="Wednesday" date="5">
+            <job number="114843-4">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_114843-4"#$#~~i class="ic-p-appr"#$#*^*i#$#114843-4*^*span#$# Custom Sign Center / Wendy's #01779~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Jacksonville (Dunn Ave) Pylon Cameos (No Permits)*^*span#$#*^*li#$#</job>
+            <job number="121096">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_121096"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#121096*^*span#$# CSC / Wendy's #13420~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: St. Johns*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PYLON: WP 100 w/ 5'x8'x6'(D) foundation (spread spoils on site). BLDG: 2 sets 42" CL (no cameos), 52" self-contained cameo, 6' &amp; 8' D/T window canopies - DRIVE-THRU (all foundations by others): Pre-sell menu, Main menu, Clearance Pole. Pivoting Canopy. - INTERIOR: RHR &amp; Menu (NGK)*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: AFTERNOON FOOTER/UNDERGROUND ELECT. INSPECTIONS. *^*span#$#*^*li#$#</job>
+            <job number="copyof121096">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof121096"#$#121096 [CONT.] *^*span#$# CSC / Wendy's #13420~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: St. Johns*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="12" name="Thursday" date="6">
+            <job number="copyof121096">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof121096"#$#121096 [CONT.] *^*span#$# CSC / Wendy's #13420~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: St. Johns*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PYLON: WP 100 w/ 5'x8'x6'(D) foundation (spread spoils on site). BLDG: 2 sets 42" CL (no cameos), 52" self-contained cameo, 6' &amp; 8' D/T window canopies - DRIVE-THRU (all foundations by others): Pre-sell menu, Main menu, Clearance Pole. Pivoting Canopy. - INTERIOR: RHR &amp; Menu (NGK)*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MORNING CONCRETE POUR*^*span#$#*^*li#$#</job>
+            <job number="copyof121096 [CONT.]">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof121096 [CONT.]"#$#121096 [CONT.] *^*span#$# CSC / Wendy's #13420~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: St. Johns*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="13" name="Friday" date="7">
+            <job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 121096 CSC / Wendy's #13420 / St. Johns: PYLON: WP 100 w/ 5'x8'x6'(D) foundation (spread spoils on site) - BLDG: 2 sets 42" CL (no cameos), 52" self-contained cameo, 6' &amp; 8' D/T window canopies - DRIVE-THRU (all foundations by others): Pre-sell menu, Main menu, Clearance Pole, Pivoting Canopy - INTERIOR: RHR &amp; Menu *NGK) - AFTERNOON FINAL INSPECTIONS FOR ALL*^*span#$#*^*li#$#</job>
+            <job number="copyof121096 [CONT.]">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof121096 [CONT.]"#$#121096 [CONT.] *^*span#$# CSC / Wendy's #13420~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: St. Johns*^*span#$#*^*li#$#</job>
+            <job number="120934">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span id="job_120934"#$#~~i class="ic-i-ret-trip"#$#*^*i#$#120934*^*span#$# Custom Sign Center / Tire Choice #1369~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Daytona Bch. - 3 ea. 18" CL faces - Neon CL Svc.*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="14" name="Saturday" date="8"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="9"/>
+          <day ordinal="16" name="Monday" date="10">
+            <job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: WEST COAST TRIP*^*span#$#*^*li#$#</job>
+            <job number="2885">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2885"#$#~~i class="ic-p-insp-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2885*^*span#$# Ruggles Sign / Express Factor Outlet~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando - Install small lit cabinet. *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SIGN TO ARRIVE @ 4/4/23*^*span#$#*^*li#$#</job>
+            <job number="2730">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2730"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#2730*^*span#$# Custom Sign Center / Wendy's #07391~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Sunrise, FL *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MONUMENT: (Non-Std 7'-4"x7'-0") reface, paint &amp; svc as req'd - BLDG. EXT.: 1 set 36" flush CL w/ cameo, 6' and 8' D/T window canopies - D/T Elements (Foundation by others) 1 Pivoting Canopy - INTERIOR: 1 RHR, 2 silver queues, 1 menu (7 panel straight), FULL AP &amp; WF PACKAGE.*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="17" name="Tuesday" date="11">
+            <job number="121185">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_121185"#$#121185*^*span#$# CSC / Wendy's #00159~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ft. Myers (N. Cleveland Ave) - PHASE 1 - 2 TRUCKS / D-T MUST BE CLOSED - Pylon support repairs, FACES: 7'X14" (w/ 77" cameos), 6'x9' RB - PAINT: cabinets and supports*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="18" name="Wednesday" date="12"/>
+          <day ordinal="19" name="Thursday" date="13"/>
+          <day ordinal="20" name="Friday" date="14">
+            <job number="121187-2">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_121187-2"#$#121187-2*^*span#$# Principle Global / Tesla (Orlando - JYP)~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2'-6"x15' banner install*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="21" name="Saturday" date="15"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="16"/>
+          <day ordinal="23" name="Monday" date="17">
+            <job number="2571-5">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_2571-5"#$#2571-5*^*span#$# Custom Sign Center / Wendy's #07631~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Miami (Needs Inspections)*^*span#$#*^*li#$#</job>
+            <job number="2911">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2911"#$#2911*^*span#$# Custom Sign Center / Wendy's #08170~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Miami Gardens*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Does this need survey for perf metal in Pivoting Canopy?*^*span#$#*^*li#$#</job>
+            <job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options" style=""#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 121295 Canopy Oaks / Dunkin Donuts / Ocala - Pylon: Foundation (4'-3"x4'-3"x5'-0"(D) - 4 yards), plumb for elect., set pipe and pour concrete. Remv. existing sign cabinet and mount to new pipe, cut old pipe at grade, connect to primary and install pole cover. *^*span#$#*^*li#$#</job>
+            <job number="2899-2">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2899-2"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2899-2*^*span#$# Allen Industries / Checkers #6264~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Daytona Beach*^*span#$#*^*li#$#</job>
+            <job number="121295">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_121295"#$#121295*^*span#$# Canopy Oaks Donuts, Inc. / Dunkin Donuts*^*li#$#</job>
+          </day>
+          <day ordinal="24" name="Tuesday" date="18">
+            <job number="copyof2911">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2911"#$#2911 [CONT.] *^*span#$# Custom Sign Center / Wendy's #08170~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Miami Gardens*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Does this need survey for perf metal in Pivoting Canopy?*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="25" name="Wednesday" date="19">
+            <job number="copyof2911 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2911 [CONT.]"#$#2911 [CONT.] *^*span#$# Custom Sign Center / Wendy's #08170~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Miami Gardens*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Does this need survey for perf metal in Pivoting Canopy?*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="26" name="Thursday" date="20">
+            <job number="2955">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2955"#$#2955*^*span#$# CSC / Tire Choice #1246~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tamarac*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey Completed*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Remove RW CL &amp; Install CL on backer*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: PROJECT CANCELLED PER JAMIE ON 3/14/23*^*span#$#*^*li#$#</job>
+            <job number="2956">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2956"#$#2956*^*span#$# Custom Sign Center, Inc~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: W. Palm Beach - Needs Survey - Permit &amp; Install*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tire Choice #1245*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Survey Completed*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Monument: 2 ea 1'-6"x7'-9" flat faces - Bldg: Remove RWCL, install new CL on backer*^*span#$#*^*li#$#</job>
+            <job number="2855-2">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2855-2"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2855-2*^*span#$# Cummings / 7-11 #35733*^*li#$#</job>
+            <job number="copyof2855-2 [CONT.]">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2855-2 [CONT.]"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#2855-2 [CONT.] *^*span#$# Cummings / 7-11 #35733~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando - 100' Bronze Panels &amp; 2 sets CL logo/stripes*^*span#$#*^*li#$#</job>
+            <job number="copyof2855-2">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2855-2"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#2855-2 [CONT.] *^*span#$# Cummings / 7-11 #35733~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando - 100' Bronze Panels &amp; 2 sets CL logo/stripes*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="27" name="Friday" date="21">
+            <job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#~~span id="admin-note" contenteditable="false"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 120688 CSC / TC #1257 / Stuart: MONUMENTS (QTY 2): 4 total small flat faces - CL: Rmv. 2 sets RW CL &amp; Install 2 sets RW CL w/ Backers (5'x20' &amp; 3'-6"x32'-6")*^*span#$#*^*li#$#</job>
+            <job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#~~span id="admin-note" contenteditable="false"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 121266 CSC/ TC #1263 / PSL / 2 CL faces incl. LARGE "T" face. (TREES NEED TRIMMED BY CUSTOMER)*^*span#$#*^*li#$#</job>
+            <job number="2989">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2989"#$#~~i class="ic-p-appr"#$#*^*i#$#2989*^*span#$# CSC / Wendy's #01744~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Indialantic (Brevard County) - R&amp;R D/T Main Menu*^*span#$#*^*li#$#</job>
+            <job number="2953-2">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2953-2"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2953-2*^*span#$# Allen Industries / Checkers #6418~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Fern Park - PYLON: Paint, R&amp;R 2 ea. 3'x8" and 2 ea. 3'x6' pan faces. *^*span#$#*^*li#$#</job>
+            <job number="copyof2855-2">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2855-2"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2855-2 [CONT.] *^*span#$# Cummings / 7-11 #35733~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando - 100' Bronze Panels &amp; 2 sets CL logo/stripes*^*span#$#*^*li#$#</job>
+            <job number="120688">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" #$#  ~~i class="ic-flag"*#$# *^*i#$#	 ~~span id="job_120688" #$#120688*^*span#$# Custom Sign Center / Tire Choice #1257*^*li#$# </job>
+            <job number="121266">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" #$#  ~~i class="ic-flag"*#$# *^*i#$#	 ~~span id="job_121266" #$#121266*^*span#$# Custom Sign Center / Tire Choice #1263*^*li#$# </job>
+          </day>
+          <day ordinal="28" name="Saturday" date="22"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="23"/>
+          <day ordinal="30" name="Monday" date="24">
+            <job number="1568-1">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1568-1"#$#1568-1*^*span#$# Custom Sign Center / Wendy's #03326~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tally*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: (Thomasville Rd) PYLON 1 (WP 100 at 25' OAH): New footer/foundation, pipe, sign cabinet &amp; pole cover - PYLON 2: Repaint, Svc as req'd, 2 ea. 3'x18' ID faces - BLDG EXTERIOR: 52" flush cameo, 42" flush CL w/ cameo, 1 set 18" PVC address numbers - DRIVE-THRU (All foundations/bolts by others): 1 ea pre-sell &amp; main menu, pivoting canopy &amp; clearance pole - INTERIOR: 1 ea. RHR, 1 ea. 7 panel NGK menu &amp; AP-39 frosted vinyl. *^*span#$#*^*li#$#</job>
+            <job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1568-1 CSC / Wendy's #03326 - Tallahassee*^*span#$#*^*li#$#</job>
+            <job number="1570-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style=""#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1570-2"#$#1570-2*^*span#$# Custom Sign Center / Wendy's #02786*^*li#$#</job>
+            <job number="2734-5">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2734-5"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2734-5*^*span#$# Walton Signage / AMF Galaxy East~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - BLDG: Rmv. 1 set of 18 ea. 31" self-contained neon CL, Install 2 new LED CL/Logo Display: Pylon: LED retro, Paint, Face replacement*^*span#$#*^*li#$#</job>
+            <job number="copyof2734-5">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2734-5"#$#~~i class="ic-flag"#$#*^*i#$#2734-5 [CONT.] *^*span#$# Walton Signage / AMF Galaxy East~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - BLDG: Rmv. 1 set of 18 ea. 31" self-contained neon CL, Install 2 new LED CL/Logo Display: Pylon: LED retro, Paint, Face replacement*^*span#$#*^*li#$#</job>
+            <job number="2832">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2832"#$#2832*^*span#$# Cummings / KFC Y300092~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: New Smyrna Beach*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="31" name="Tuesday" date="25">
+            <job number="copyof1568-1 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1568-1 [CONT.]"#$#1568-1 [CONT.] *^*span#$# Custom Sign Center / Wendy's #03326~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tallahassee (Thomasville Rd) - PYLON 1 (WP 100 at 25' OAH): New footer/foundation, pipe, sign cabinet &amp; pole cover - PYLON 2: Repaint, Svc as req'd, 2 ea. 3'x8' ID faces - BLDG EXTERIOR: 52" flush cameo, 42" flush CL w/ Cameo, 1 set 18" PVC address numbers - DRIVE-THRU (Alll foundations/bolts by others): 1 ea. main menu, 1 ea. pre-sell menu, 1 ea. pivotiing canopy, 1 eal. clearance pole - INTERIOR: 1 ea. RHR, 1 ea. 7 panel NGK menu, AP-39 frosted vinyl. *^*span#$#*^*li#$#</job>
+            <job number="copyof&gt;">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#~~span contenteditable="false" class="copyof&gt;"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1568-1 CSC / Wendy's #03326 - Tallahassee*^*span#$#*^*li#$#</job>
+            <job number="copyof1570-2">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  	 ~~span class="copyof1570-2"#$#~~i class="ic-flag"#$#*^*i#$#1570-2 [CONT.] *^*span#$# Custom Sign Center / Wendy's #02786~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tally - Pylon: WP 100 w/ footer by OI - BLDG: 2 Sets 42" flush CL, 53" flush cameo, 1 Set PVC QIOR pin Mount, 1 set MFTG pin mount, 1 set Delivery-P/U pin mt., 1 set 18" address numbers - D/T: Foundations by GC - Main Menu, Pre-sell Menu, Pivoting Canopy, Clearance Pole - INTERIOR: 8 panel stacked menu &amp; AP-39 frosted vinyl*^*span#$#*^*li#$#</job>
+            <job number="copyof2734-5">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2734-5"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2734-5 [CONT.] *^*span#$# Walton Signage / AMF Galaxy East~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - BLDG: Rmv. 1 set of 18 ea. 31" self-contained neon CL, Install 2 new LED CL/Logo Display: Pylon: LED retro, Paint, Face replacement*^*span#$#*^*li#$#</job>
+            <job number="copyof2734-5 [CONT.]">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2734-5 [CONT.]"#$#~~i class="ic-flag"#$#*^*i#$#2734-5 [CONT.] *^*span#$# Walton Signage / AMF Galaxy East~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - BLDG: Rmv. 1 set of 18 ea. 31" self-contained neon CL, Install 2 new LED CL/Logo Display: Pylon: LED retro, Paint, Face replacement*^*span#$#*^*li#$#</job>
+            <job number="121187">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_121187"#$#121187*^*span#$# Principle Global / Tesla (Orlando - JYP)*^*li#$#</job>
+          </day>
+          <day ordinal="32" name="Wednesday" date="26">
+            <job number="copyof1568-1 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1568-1 [CONT.]"#$#1568-1 [CONT.] *^*span#$# Custom Sign Center / Wendy's #03326~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tallahassee (Thomasville Rd) - PYLON 1 (WP 100 at 25' OAH): New footer/foundation, pipe, sign cabinet &amp; pole cover - PYLON 2: Repaint, Svc as req'd, 2 ea. 3'x8' ID faces - BLDG EXTERIOR: 52" flush cameo, 42" flush CL w/ Cameo, 1 set 18" PVC address numbers - DRIVE-THRU (Alll foundations/bolts by others): 1 ea. main menu, 1 ea. pre-sell menu, 1 ea. pivotiing canopy, 1 eal. clearance pole - INTERIOR: 1 ea. RHR, 1 ea. 7 panel NGK menu, AP-39 frosted vinyl. *^*span#$#*^*li#$#</job>
+            <job number="copyof&gt; [CONT.]">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1568-1 CSC / Wendy's #03326 - Tallahassee*^*span#$#*^*li#$#</job>
+            <job number="copyof1570-2 [CONT.]">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1570-2 [CONT.]"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1570-2 [CONT.] *^*span#$# Custom Sign Center / Wendy's #02786~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tally - Pylon: WP 100 w/ footer by OI - BLDG: 2 Sets 42" flush CL, 53" flush cameo, 1 Set PVC QIOR pin Mount, 1 set MFTG pin mount, 1 set Delivery-P/U pin mt., 1 set 18" address numbers - D/T: Foundations by GC - Main Menu, Pre-sell Menu, Pivoting Canopy, Clearance Pole - INTERIOR: 8 panel stacked menu &amp; AP-39 frosted vinyl*^*span#$#*^*li#$#</job>
+            <job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#~~i class="ic-flag"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2972-2 Cummings / 7-11 #36688 / Jax - WALL SIGN: Rmv existing, (patch/paint), Install new 2'-5"x13'-9" CL on Backer - PUMP CANOPY R&amp;R 3 ea 24"x24" cabinet faces - PYLON: R&amp;R 2 ea. 5'x5' pan faces. *^*span#$#*^*li#$#</job>
+            <job number="2972-2">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  	 ~~span id="job_2972-2"#$#~~i class="ic-flag"#$#*^*i#$#2972-2*^*span#$# Cummings / 7-11 #36688~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Jax - WALL Sign: Remv exist., patch, paint, install new 2'-5"x13'-9" CL on backer - PUMP CANOPY: 3 ea. 24"x24" cabinet refaces - PYLON: R&amp;R 2 ea. 5'x5' pan faces.*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="33" name="Thursday" date="27">
+            <job number="2901-2">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2901-2"#$#2901-2*^*span#$# Allen Industries (OH) / Checkers #6316~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Winter Garden - PYLON: Replace 2 missing retainers, LED retro, Paint All, R&amp;R 2 ea. 7'x14' pan faces - 2 TRUCKS REQ'D*^*span#$#*^*li#$#</job>
+            <job number="copyof1568-1 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1568-1 [CONT.]"#$#1568-1 [CONT.] *^*span#$# Custom Sign Center / Wendy's #03326~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tallahassee (Thomasville Rd) - PYLON 1 (WP 100 at 25' OAH): New footer/foundation, pipe, sign cabinet &amp; pole cover - PYLON 2: Repaint, Svc as req'd, 2 ea. 3'x8' ID faces - BLDG EXTERIOR: 52" flush cameo, 42" flush CL w/ Cameo, 1 set 18" PVC address numbers - DRIVE-THRU (Alll foundations/bolts by others): 1 ea. main menu, 1 ea. pre-sell menu, 1 ea. pivotiing canopy, 1 eal. clearance pole - INTERIOR: 1 ea. RHR, 1 ea. 7 panel NGK menu, AP-39 frosted vinyl. *^*span#$#*^*li#$#</job>
+            <job number="copyof&gt; [CONT.]">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1568-1 CSC / Wendy's #03326 - Tallahassee*^*span#$#*^*li#$#</job>
+            <job number="copyof1570-2 [CONT.]">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1570-2 [CONT.]"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1570-2 [CONT.] *^*span#$# Custom Sign Center / Wendy's #02786~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tally - Pylon: WP 100 w/ footer by OI - BLDG: 2 Sets 42" flush CL, 53" flush cameo, 1 Set PVC QIOR pin Mount, 1 set MFTG pin mount, 1 set Delivery-P/U pin mt., 1 set 18" address numbers - D/T: Foundations by GC - Main Menu, Pre-sell Menu, Pivoting Canopy, Clearance Pole - INTERIOR: 8 panel stacked menu &amp; AP-39 frosted vinyl*^*span#$#*^*li#$#</job>
+            <job number="copyof2972-2">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  	 ~~span class="copyof2972-2"#$#~~i class="ic-flag"#$#*^*i#$#2972-2 [CONT.] *^*span#$# Cummings / 7-11 #36688~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Jax - WALL Sign: Remv exist., patch, paint, install new 2'-5"x13'-9" CL on backer - PUMP CANOPY: 3 ea. 24"x24" cabinet refaces - PYLON: R&amp;R 2 ea. 5'x5' pan faces.*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="34" name="Friday" date="28">
+            <job number="2965">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2965"#$#2965*^*span#$# CSC / Wendy's #05086~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: North Port*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: (Tamiami Trl) - *^*span#$#*^*li#$#</job>
+            <job number="copyof1568-1">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1568-1"#$#1568-1 [CONT.] *^*span#$# Custom Sign Center / Wendy's #03326~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tallahassee (Thomasville Rd) - PYLON 1 (WP 100 at 25' OAH): New footer/foundation, pipe, sign cabinet &amp; pole cover - PYLON 2: Repaint, Svc as req'd, 2 ea. 3'x8' ID faces - BLDG EXTERIOR: 52" flush cameo, 42" flush CL w/ Cameo, 1 set 18" PVC address numbers - DRIVE-THRU (Alll foundations/bolts by others): 1 ea. main menu, 1 ea. pre-sell menu, 1 ea. pivotiing canopy, 1 eal. clearance pole - INTERIOR: 1 ea. RHR, 1 ea. 7 panel NGK menu, AP-39 frosted vinyl. *^*span#$#*^*li#$#</job>
+            <job number="copyof&gt; [CONT.]">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1568-1 CSC / Wendy's #03326 - Tallahassee*^*span#$#*^*li#$#</job>
+            <job number="copyof1570-2 [CONT.]">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1570-2 [CONT.]"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1570-2 [CONT.] *^*span#$# Custom Sign Center / Wendy's #02786~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tally - Pylon: WP 100 w/ footer by OI - BLDG: 2 Sets 42" flush CL, 53" flush cameo, 1 Set PVC QIOR pin Mount, 1 set MFTG pin mount, 1 set Delivery-P/U pin mt., 1 set 18" address numbers - D/T: Foundations by GC - Main Menu, Pre-sell Menu, Pivoting Canopy, Clearance Pole - INTERIOR: 8 panel stacked menu &amp; AP-39 frosted vinyl*^*span#$#*^*li#$#</job>
+            <job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#~~i class="ic-flag"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2661-1 CSC / Wendy's #09974 / Tallahassee - Pivoting Canopy Footer/Inspection Failure*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="35" name="Saturday" date="29"/>
+        </week>
+        <week ordinal="6">
+          <day ordinal="29" name="Sunday" date="30"/>
+          <day ordinal="30" name="Monday" date="">
+            <job number="1568-1">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span id="job_1568-1"#$#1568-1*^*span#$# Custom Sign Center / Wendy's #03326~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tally*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: (Thomasville Rd) PYLON 1 (WP 100 at 25' OAH): New footer/foundation, pipe, sign cabinet &amp; pole cover - PYLON 2: Repaint, Svc as req'd, 2 ea. 3'x18' ID faces - BLDG EXTERIOR: 52" flush cameo, 42" flush CL w/ cameo, 1 set 18" PVC address numbers - DRIVE-THRU (All foundations/bolts by others): 1 ea pre-sell &amp; main menu, pivoting canopy &amp; clearance pole - INTERIOR: 1 ea. RHR, 1 ea. 7 panel NGK menu &amp; AP-39 frosted vinyl. *^*span#$#*^*li#$#</job>
+            <job number="admin-note">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1568-1 CSC / Wendy's #03326 - Tallahassee*^*span#$#*^*li#$#</job>
+            <job number="1570-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style=""#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_1570-2"#$#1570-2*^*span#$# Custom Sign Center / Wendy's #02786*^*li#$#</job>
+            <job number="2734-5">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2734-5"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2734-5*^*span#$# Walton Signage / AMF Galaxy East~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - BLDG: Rmv. 1 set of 18 ea. 31" self-contained neon CL, Install 2 new LED CL/Logo Display: Pylon: LED retro, Paint, Face replacement*^*span#$#*^*li#$#</job>
+            <job number="copyof2734-5">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2734-5"#$#~~i class="ic-flag"#$#*^*i#$#2734-5 [CONT.] *^*span#$# Walton Signage / AMF Galaxy East~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - BLDG: Rmv. 1 set of 18 ea. 31" self-contained neon CL, Install 2 new LED CL/Logo Display: Pylon: LED retro, Paint, Face replacement*^*span#$#*^*li#$#</job>
+            <job number="2832">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2832"#$#2832*^*span#$# Cummings / KFC Y300092~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: New Smyrna Beach*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="31" name="Tuesday" date="">
+            <job number="copyof1568-1 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1568-1 [CONT.]"#$#1568-1 [CONT.] *^*span#$# Custom Sign Center / Wendy's #03326~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tallahassee (Thomasville Rd) - PYLON 1 (WP 100 at 25' OAH): New footer/foundation, pipe, sign cabinet &amp; pole cover - PYLON 2: Repaint, Svc as req'd, 2 ea. 3'x8' ID faces - BLDG EXTERIOR: 52" flush cameo, 42" flush CL w/ Cameo, 1 set 18" PVC address numbers - DRIVE-THRU (Alll foundations/bolts by others): 1 ea. main menu, 1 ea. pre-sell menu, 1 ea. pivotiing canopy, 1 eal. clearance pole - INTERIOR: 1 ea. RHR, 1 ea. 7 panel NGK menu, AP-39 frosted vinyl. *^*span#$#*^*li#$#</job>
+            <job number="copyof&gt;">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#~~span contenteditable="false" class="copyof&gt;"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1568-1 CSC / Wendy's #03326 - Tallahassee*^*span#$#*^*li#$#</job>
+            <job number="copyof1570-2">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  	 ~~span class="copyof1570-2"#$#~~i class="ic-flag"#$#*^*i#$#1570-2 [CONT.] *^*span#$# Custom Sign Center / Wendy's #02786~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tally - Pylon: WP 100 w/ footer by OI - BLDG: 2 Sets 42" flush CL, 53" flush cameo, 1 Set PVC QIOR pin Mount, 1 set MFTG pin mount, 1 set Delivery-P/U pin mt., 1 set 18" address numbers - D/T: Foundations by GC - Main Menu, Pre-sell Menu, Pivoting Canopy, Clearance Pole - INTERIOR: 8 panel stacked menu &amp; AP-39 frosted vinyl*^*span#$#*^*li#$#</job>
+            <job number="copyof2734-5">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2734-5"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2734-5 [CONT.] *^*span#$# Walton Signage / AMF Galaxy East~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - BLDG: Rmv. 1 set of 18 ea. 31" self-contained neon CL, Install 2 new LED CL/Logo Display: Pylon: LED retro, Paint, Face replacement*^*span#$#*^*li#$#</job>
+            <job number="copyof2734-5 [CONT.]">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2734-5 [CONT.]"#$#~~i class="ic-flag"#$#*^*i#$#2734-5 [CONT.] *^*span#$# Walton Signage / AMF Galaxy East~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - BLDG: Rmv. 1 set of 18 ea. 31" self-contained neon CL, Install 2 new LED CL/Logo Display: Pylon: LED retro, Paint, Face replacement*^*span#$#*^*li#$#</job>
+            <job number="121187">~~li class="lineEntry" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_121187"#$#121187*^*span#$# Principle Global / Tesla (Orlando - JYP)*^*li#$#</job>
+          </day>
+          <day ordinal="32" name="Wednesday" date="">
+            <job number="copyof1568-1 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1568-1 [CONT.]"#$#1568-1 [CONT.] *^*span#$# Custom Sign Center / Wendy's #03326~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tallahassee (Thomasville Rd) - PYLON 1 (WP 100 at 25' OAH): New footer/foundation, pipe, sign cabinet &amp; pole cover - PYLON 2: Repaint, Svc as req'd, 2 ea. 3'x8' ID faces - BLDG EXTERIOR: 52" flush cameo, 42" flush CL w/ Cameo, 1 set 18" PVC address numbers - DRIVE-THRU (Alll foundations/bolts by others): 1 ea. main menu, 1 ea. pre-sell menu, 1 ea. pivotiing canopy, 1 eal. clearance pole - INTERIOR: 1 ea. RHR, 1 ea. 7 panel NGK menu, AP-39 frosted vinyl. *^*span#$#*^*li#$#</job>
+            <job number="copyof&gt; [CONT.]">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1568-1 CSC / Wendy's #03326 - Tallahassee*^*span#$#*^*li#$#</job>
+            <job number="copyof1570-2 [CONT.]">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1570-2 [CONT.]"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1570-2 [CONT.] *^*span#$# Custom Sign Center / Wendy's #02786~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tally - Pylon: WP 100 w/ footer by OI - BLDG: 2 Sets 42" flush CL, 53" flush cameo, 1 Set PVC QIOR pin Mount, 1 set MFTG pin mount, 1 set Delivery-P/U pin mt., 1 set 18" address numbers - D/T: Foundations by GC - Main Menu, Pre-sell Menu, Pivoting Canopy, Clearance Pole - INTERIOR: 8 panel stacked menu &amp; AP-39 frosted vinyl*^*span#$#*^*li#$#</job>
+            <job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#~~i class="ic-flag"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2972-2 Cummings / 7-11 #36688 / Jax - WALL SIGN: Rmv existing, (patch/paint), Install new 2'-5"x13'-9" CL on Backer - PUMP CANOPY R&amp;R 3 ea 24"x24" cabinet faces - PYLON: R&amp;R 2 ea. 5'x5' pan faces. *^*span#$#*^*li#$#</job>
+            <job number="2972-2">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  	 ~~span id="job_2972-2"#$#~~i class="ic-flag"#$#*^*i#$#2972-2*^*span#$# Cummings / 7-11 #36688~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Jax - WALL Sign: Remv exist., patch, paint, install new 2'-5"x13'-9" CL on backer - PUMP CANOPY: 3 ea. 24"x24" cabinet refaces - PYLON: R&amp;R 2 ea. 5'x5' pan faces.*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="33" name="Thursday" date="">
+            <job number="2901-2">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2901-2"#$#2901-2*^*span#$# Allen Industries (OH) / Checkers #6316~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Winter Garden - PYLON: Replace 2 missing retainers, LED retro, Paint All, R&amp;R 2 ea. 7'x14' pan faces - 2 TRUCKS REQ'D*^*span#$#*^*li#$#</job>
+            <job number="copyof1568-1 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1568-1 [CONT.]"#$#1568-1 [CONT.] *^*span#$# Custom Sign Center / Wendy's #03326~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tallahassee (Thomasville Rd) - PYLON 1 (WP 100 at 25' OAH): New footer/foundation, pipe, sign cabinet &amp; pole cover - PYLON 2: Repaint, Svc as req'd, 2 ea. 3'x8' ID faces - BLDG EXTERIOR: 52" flush cameo, 42" flush CL w/ Cameo, 1 set 18" PVC address numbers - DRIVE-THRU (Alll foundations/bolts by others): 1 ea. main menu, 1 ea. pre-sell menu, 1 ea. pivotiing canopy, 1 eal. clearance pole - INTERIOR: 1 ea. RHR, 1 ea. 7 panel NGK menu, AP-39 frosted vinyl. *^*span#$#*^*li#$#</job>
+            <job number="copyof&gt; [CONT.]">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1568-1 CSC / Wendy's #03326 - Tallahassee*^*span#$#*^*li#$#</job>
+            <job number="copyof1570-2 [CONT.]">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1570-2 [CONT.]"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1570-2 [CONT.] *^*span#$# Custom Sign Center / Wendy's #02786~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tally - Pylon: WP 100 w/ footer by OI - BLDG: 2 Sets 42" flush CL, 53" flush cameo, 1 Set PVC QIOR pin Mount, 1 set MFTG pin mount, 1 set Delivery-P/U pin mt., 1 set 18" address numbers - D/T: Foundations by GC - Main Menu, Pre-sell Menu, Pivoting Canopy, Clearance Pole - INTERIOR: 8 panel stacked menu &amp; AP-39 frosted vinyl*^*span#$#*^*li#$#</job>
+            <job number="copyof2972-2">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  	 ~~span class="copyof2972-2"#$#~~i class="ic-flag"#$#*^*i#$#2972-2 [CONT.] *^*span#$# Cummings / 7-11 #36688~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Jax - WALL Sign: Remv exist., patch, paint, install new 2'-5"x13'-9" CL on backer - PUMP CANOPY: 3 ea. 24"x24" cabinet refaces - PYLON: R&amp;R 2 ea. 5'x5' pan faces.*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="34" name="Friday" date="">
+            <job number="2965">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2965"#$#2965*^*span#$# CSC / Wendy's #05086~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: North Port*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: (Tamiami Trl) - *^*span#$#*^*li#$#</job>
+            <job number="copyof1568-1">~~li class="lineEntry t1" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1568-1"#$#1568-1 [CONT.] *^*span#$# Custom Sign Center / Wendy's #03326~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tallahassee (Thomasville Rd) - PYLON 1 (WP 100 at 25' OAH): New footer/foundation, pipe, sign cabinet &amp; pole cover - PYLON 2: Repaint, Svc as req'd, 2 ea. 3'x8' ID faces - BLDG EXTERIOR: 52" flush cameo, 42" flush CL w/ Cameo, 1 set 18" PVC address numbers - DRIVE-THRU (Alll foundations/bolts by others): 1 ea. main menu, 1 ea. pre-sell menu, 1 ea. pivotiing canopy, 1 eal. clearance pole - INTERIOR: 1 ea. RHR, 1 ea. 7 panel NGK menu, AP-39 frosted vinyl. *^*span#$#*^*li#$#</job>
+            <job number="copyof&gt; [CONT.]">~~li class="lineEntry t3" title="Right Click for Options" style=""#$#~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 1568-1 CSC / Wendy's #03326 - Tallahassee*^*span#$#*^*li#$#</job>
+            <job number="copyof1570-2 [CONT.]">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof1570-2 [CONT.]"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#1570-2 [CONT.] *^*span#$# Custom Sign Center / Wendy's #02786~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Tally - Pylon: WP 100 w/ footer by OI - BLDG: 2 Sets 42" flush CL, 53" flush cameo, 1 Set PVC QIOR pin Mount, 1 set MFTG pin mount, 1 set Delivery-P/U pin mt., 1 set 18" address numbers - D/T: Foundations by GC - Main Menu, Pre-sell Menu, Pivoting Canopy, Clearance Pole - INTERIOR: 8 panel stacked menu &amp; AP-39 frosted vinyl*^*span#$#*^*li#$#</job>
+            <job number="admin-note">~~li class="lineEntry unassigned" title="Right Click for Options"#$#~~span id="admin-note" contenteditable="false"#$#~~i class="ic-flag"#$#*^*i#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 2661-1 CSC / Wendy's #09974 / Tallahassee - Pivoting Canopy Footer/Inspection Failure*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="5" name="May">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date="1">
+            <job number="admin-note">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#~~span id="admin-note" contenteditable="false"#$#&gt;*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#*^*li#$#</job>
+            <job number="121316">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_121316"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#121316*^*span#$# Fast Eddie's / Sodo Kava~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Longwood - 2 sets RW CL (2'-9"x13' - 1'-9"x16')*^*span#$#*^*li#$#</job>
+            <job number="copyof121316">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof121316"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#121316 [CONT.] *^*span#$# Fast Eddie's / Sodo Kava~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Longwood - 2 sets RW CL (2'-9"x13' - 1'-9"x16')*^*span#$#*^*li#$#</job>
+            <job number="2969">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2969"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#~~i class="ic-i-ret-trip"#$#*^*i#$#2969*^*span#$# Grenentec / McDonalds (SW27th)~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - R&amp;R 14 PL Light Fixtures*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MUST BE COMPLETED BETWEEN 2/6/23 &amp; 2/10/23*^*span#$#*^*li#$#</job>
+            <job number="2604">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2604"#$#2604*^*span#$# Federal Heath / Cumberland Farms #9747*^*li#$#</job>
+            <job number="2903-2">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2903-2"#$#2903-2*^*span#$# Allen Industries (OH) / Checkers #6312~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - PYLON: LED Retro, Paint &amp; Reface (2 at 5'-4"x9'-8" - DIRECTIONALS: Rmv. 1 at grade, install 1 new w/ new foundation, Reface 2 ea. *^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="3" name="Tuesday" date="2">
+            <job number="copyof&gt;">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#~~span contenteditable="false" class="copyof&gt;"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#*^*li#$#</job>
+            <job number="121270">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span id="job_121270"#$#121270*^*span#$# More Than Games~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - 2'x15' wall sign face replacement*^*span#$#*^*li#$#</job>
+            <job number="copyof121270">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof121270"#$#121270 [CONT.] *^*span#$# More Than Games~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala - 2'x15' wall sign face replacement*^*span#$#*^*li#$#</job>
+            <job number="2993">~~li class="lineEntry t3" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span id="job_2993"#$#2993*^*span#$# Ocala Community Credit Union*^*li#$#</job>
+            <job number="2980">~~li class="lineEntry" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2980"#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2980*^*span#$# Allen Industries / Checkers #6433~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando (New Store) - PYLON: New foundation and full install (Qty. 1)  - Directional: New foundation and full install (Qty. 1) - BLDG: 1 ea. 2'x8' wall cabinet, 3 sets 16"(H) CL, 5 ea. external disconnects. (3 DAYS)*^*span#$#*^*li#$#</job>
+            <job number="copyof2993">~~li class="lineEntry t2" title="Right-Click for Options" contenteditable="false" style=""#$#  	 ~~span class="copyof2993"#$#2993 [CONT.] *^*span#$# Ocala Community Credit Union*^*li#$#</job>
+          </day>
+          <day ordinal="4" name="Wednesday" date="3">
+            <job number="copyof&gt; [CONT.]">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#*^*li#$#</job>
+            <job number="2861-2">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  	 ~~span id="job_2861-2"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2861-2*^*span#$# Cummings/7-11 #24607~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando - Approx 56' of 48" bronze panels*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Complete all painting. *^*span#$#*^*li#$#</job>
+            <job number="copyof2861-2">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  	 ~~span class="copyof2861-2"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2861-2 [CONT.] *^*span#$# Cummings/7-11 #24607~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Orlando - Approx 56' of 48" bronze panels*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Complete all painting. *^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="5" name="Thursday" date="4">
+            <job number="copyof&gt; [CONT.]">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#*^*li#$#</job>
+            <job number="copyof2861-2">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  	 ~~span class="copyof2861-2"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2861-2 [CONT.] *^*span#$# Cummings/7-11 #24607~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: 3'-3"x27'-3" (7 section) CL Logo/Stipes. *^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="6" name="Friday" date="5">
+            <job number="copyof&gt; [CONT.]">~~li class="lineEntry t1" title="Right Click for Options"#$#~~span contenteditable="false" class="copyof&gt; [CONT.]"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="7" name="Saturday" date="6"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="7"/>
+          <day ordinal="9" name="Monday" date="8">
+            <job number="copyof&gt;">~~li class="lineEntry t1" title="Right Click for Options" style=""#$#~~span contenteditable="false" class="copyof&gt;"#$#&gt; [CONT.] *^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: CHAD - OFF*^*span#$#*^*li#$#</job>
+            <job number="2703-2">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2703-2"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2703-2*^*span#$# Persona / Fairfield Inn &amp; Suites~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Titusville*^*span#$#*^*li#$#</job>
+            <job number="121318">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_121318"#$#121318*^*span#$# Ruggles / WHBM #3278*^*li#$#</job>
+          </day>
+          <day ordinal="10" name="Tuesday" date="9">
+            <job number="2963">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  	 ~~span id="job_2963"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2963*^*span#$# Ruggles Sign / Lilly Pulitzer #268~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Disney Springs (12am - 6am ONLY) - R&amp;R 1 blade sign*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="11" name="Wednesday" date="10"/>
+          <day ordinal="12" name="Thursday" date="11">
+            <job number="2970-2">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2970-2"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2970-2*^*span#$# Cummings / 7-11 #32979~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Kissimmee - DAY #1: Mount 45LF of 48" bronze panels, complete all painting &amp; reface 4 each (26"x18") 2-sided directional signs*^*span#$#*^*li#$#</job>
+            <job number="copyof2970-2">~~li class="lineEntry t3" title="Right-Click for Options"#$#  	 ~~span class="copyof2970-2"#$#2970-2 [CONT.] *^*span#$# Cummings / 7-11 #32979~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Kissimmee - DAY #1: Mount 45LF of 48" bronze panels, complete all painting &amp; reface 4 each (26"x18") 2-sided directional signs*^*span#$#*^*li#$#</job>
+            <job number="copyof2970-2 [CONT.]">~~li class="lineEntry t2" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2970-2 [CONT.]"#$#2970-2 [CONT.] *^*span#$# Cummings / 7-11 #32979~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Kissimmee - DAY #1: Mount 45LF of 48" bronze panels, complete all painting &amp; reface 4 each (26"x18") 2-sided directional signs*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="13" name="Friday" date="12">
+            <job number="copyof2970-2">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2970-2"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#2970-2 [CONT.] *^*span#$# Cummings / 7-11 #32979~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Kissimmee - DAY #2: Install 3'-3"x19' (7 sections) CL logo/stripe display &amp; Finish any directional sign reface work*^*span#$#*^*li#$#</job>
+            <job number="copyof2970-2 [CONT.]">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  	 ~~span class="copyof2970-2 [CONT.]"#$#~~i class="ic-flag"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#2970-2 [CONT.] *^*span#$# Cummings / 7-11 #32979~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Kissimmee - DAY #2: Install 3'-3"x19' (7 sections) CL logo/stripe display &amp; Finish any directional sign reface work*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="14" name="Saturday" date="13"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="14"/>
+          <day ordinal="16" name="Monday" date="15">
+            <job number="2737-7">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2737-7"#$#2737-7*^*span#$# Walton Signage / AMF Galaxy West~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ocala*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="17" name="Tuesday" date="16"/>
+          <day ordinal="18" name="Wednesday" date="17"/>
+          <day ordinal="19" name="Thursday" date="18"/>
+          <day ordinal="20" name="Friday" date="19"/>
+          <day ordinal="21" name="Saturday" date="20"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="21"/>
+          <day ordinal="23" name="Monday" date="22"/>
+          <day ordinal="24" name="Tuesday" date="23"/>
+          <day ordinal="25" name="Wednesday" date="24"/>
+          <day ordinal="26" name="Thursday" date="25"/>
+          <day ordinal="27" name="Friday" date="26"/>
+          <day ordinal="28" name="Saturday" date="27"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="28"/>
+          <day ordinal="30" name="Monday" date="29">
+            <job number="2945-2">~~li class="lineEntry unassigned" title="Right-Click for Options" contenteditable="false" style=""#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2945-2"#$#2945-2*^*span#$# Cummings / 7-11 #27506*^*li#$#</job>
+          </day>
+          <day ordinal="31" name="Tuesday" date="30"/>
+          <day ordinal="32" name="Wednesday" date="31"/>
+          <day ordinal="33" name="Thursday" date=""/>
+          <day ordinal="34" name="Friday" date=""/>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="6" name="June">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date=""/>
+          <day ordinal="5" name="Thursday" date="1"/>
+          <day ordinal="6" name="Friday" date="2"/>
+          <day ordinal="7" name="Saturday" date="3"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="4"/>
+          <day ordinal="9" name="Monday" date="5">
+            <job number="2887">~~li class="lineEntry" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2887"#$#2887*^*span#$# Custom Sign Center / Wendy's #09893~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Jacksonville (Baymeadows Rd)*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MONUMENT: Paint, LED retro &amp; paint - BLDG. PRODUCT: 2 CL flush (wireway as needed), 40' EVO / Silver Trim - INTERIOR: 2 Silver Queus, 1 RHR &amp; 1 Menu (7 panel straight rim illum)*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="10" name="Tuesday" date="6">
+            <job number="copyof2887">~~li class="lineEntry" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2887"#$#2887 [CONT.] *^*span#$# Custom Sign Center / Wendy's #09893~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Jacksonville (Baymeadows Rd)*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MONUMENT: Paint, LED retro &amp; paint - BLDG. PRODUCT: 2 CL flush (wireway as needed), 40' EVO / Silver Trim - INTERIOR: 2 Silver Queus, 1 RHR &amp; 1 Menu (7 panel straight rim illum)*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="11" name="Wednesday" date="7">
+            <job number="copyof2887 [CONT.]">~~li class="lineEntry" title="Right-Click for Options" style=""#$#  	 ~~span class="copyof2887 [CONT.]"#$#2887 [CONT.] *^*span#$# Custom Sign Center / Wendy's #09893~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Jacksonville (Baymeadows Rd)*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: MONUMENT: Paint, LED retro &amp; paint - BLDG. PRODUCT: 2 CL flush (wireway as needed), 40' EVO / Silver Trim - INTERIOR: 2 Silver Queus, 1 RHR &amp; 1 Menu (7 panel straight rim illum)*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="12" name="Thursday" date="8"/>
+          <day ordinal="13" name="Friday" date="9">
+            <job number="2863-2">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span id="job_2863-2"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2863-2*^*span#$# Federal Heath / OneMain Financial~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Apopka - Remv. RW CL at location 1 &amp; install banner location 2 (same strip mall)*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="14" name="Saturday" date="10"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="11"/>
+          <day ordinal="16" name="Monday" date="12">
+            <job number="copyof2863-2 [CONT.]">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof2863-2 [CONT.]"#$#2863-2 [CONT.] *^*span#$# Federal Heath / OneMain Financial~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Alter removed RW CL display as required to re-install*^*span#$#~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: SHOP WORK*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="17" name="Tuesday" date="13">
+            <job number="copyof2863-2">~~li class="lineEntry t1" title="Right-Click for Options"#$#  	 ~~span class="copyof2863-2"#$#~~i class="ic-p-appr"#$#*^*i#$#~~i class="ic-p-insp-req"#$#*^*i#$#~~i class="ic-users"#$#*^*i#$#2863-2 [CONT.] *^*span#$# Federal Heath / OneMain Financial~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Apopka - Remove banner, install re-worked RW CL*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="18" name="Wednesday" date="14"/>
+          <day ordinal="19" name="Thursday" date="15"/>
+          <day ordinal="20" name="Friday" date="16"/>
+          <day ordinal="21" name="Saturday" date="17"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="18"/>
+          <day ordinal="23" name="Monday" date="19"/>
+          <day ordinal="24" name="Tuesday" date="20"/>
+          <day ordinal="25" name="Wednesday" date="21"/>
+          <day ordinal="26" name="Thursday" date="22"/>
+          <day ordinal="27" name="Friday" date="23"/>
+          <day ordinal="28" name="Saturday" date="24"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="25"/>
+          <day ordinal="30" name="Monday" date="26">
+            <job number="2982">~~li class="lineEntry unassigned" title="Right-Click for Options" style=""#$#  	 ~~span id="job_2982"#$#~~i class="ic-flag"#$#*^*i#$#2982*^*span#$# Colite / Holiday Inn Express~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Cape Canaveral*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="31" name="Tuesday" date="27"/>
+          <day ordinal="32" name="Wednesday" date="28"/>
+          <day ordinal="33" name="Thursday" date="29"/>
+          <day ordinal="34" name="Friday" date="30"/>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="7" name="July">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date=""/>
+          <day ordinal="5" name="Thursday" date=""/>
+          <day ordinal="6" name="Friday" date=""/>
+          <day ordinal="7" name="Saturday" date="1"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="2"/>
+          <day ordinal="9" name="Monday" date="3"/>
+          <day ordinal="10" name="Tuesday" date="4"/>
+          <day ordinal="11" name="Wednesday" date="5">
+            <job number="2824">~~li class="lineEntry unassigned" title="Right-Click for Options"#$#  ~~i class="ic-flag"#$# *^*i#$#	 ~~span id="job_2824"#$#2824*^*span#$# Custom Sign Center, Inc~~span class="admin-note"#$# [~~i style="color:#f00"#$#tom*^*i#$#]: Ft. Myers (Palm Bch. Blvd)*^*span#$#*^*li#$#</job>
+          </day>
+          <day ordinal="12" name="Thursday" date="6"/>
+          <day ordinal="13" name="Friday" date="7"/>
+          <day ordinal="14" name="Saturday" date="8"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="9"/>
+          <day ordinal="16" name="Monday" date="10"/>
+          <day ordinal="17" name="Tuesday" date="11"/>
+          <day ordinal="18" name="Wednesday" date="12"/>
+          <day ordinal="19" name="Thursday" date="13"/>
+          <day ordinal="20" name="Friday" date="14"/>
+          <day ordinal="21" name="Saturday" date="15"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="16"/>
+          <day ordinal="23" name="Monday" date="17"/>
+          <day ordinal="24" name="Tuesday" date="18"/>
+          <day ordinal="25" name="Wednesday" date="19"/>
+          <day ordinal="26" name="Thursday" date="20"/>
+          <day ordinal="27" name="Friday" date="21"/>
+          <day ordinal="28" name="Saturday" date="22"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="23"/>
+          <day ordinal="30" name="Monday" date="24"/>
+          <day ordinal="31" name="Tuesday" date="25"/>
+          <day ordinal="32" name="Wednesday" date="26"/>
+          <day ordinal="33" name="Thursday" date="27"/>
+          <day ordinal="34" name="Friday" date="28"/>
+          <day ordinal="35" name="Saturday" date="29"/>
+        </week>
+        <week ordinal="6">
+          <day ordinal="36" name="Sunday" date="30"/>
+          <day ordinal="37" name="Monday" date="31"/>
+          <day ordinal="38" name="Tuesday" date=""/>
+          <day ordinal="39" name="Wednesday" date=""/>
+          <day ordinal="40" name="Thursday" date=""/>
+          <day ordinal="41" name="Friday" date=""/>
+          <day ordinal="42" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="8" name="August">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date="1"/>
+          <day ordinal="4" name="Wednesday" date="2"/>
+          <day ordinal="5" name="Thursday" date="3"/>
+          <day ordinal="6" name="Friday" date="4"/>
+          <day ordinal="7" name="Saturday" date="5"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="6"/>
+          <day ordinal="9" name="Monday" date="7"/>
+          <day ordinal="10" name="Tuesday" date="8"/>
+          <day ordinal="11" name="Wednesday" date="9"/>
+          <day ordinal="12" name="Thursday" date="10"/>
+          <day ordinal="13" name="Friday" date="11"/>
+          <day ordinal="14" name="Saturday" date="12"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="13"/>
+          <day ordinal="16" name="Monday" date="14"/>
+          <day ordinal="17" name="Tuesday" date="15"/>
+          <day ordinal="18" name="Wednesday" date="16"/>
+          <day ordinal="19" name="Thursday" date="17"/>
+          <day ordinal="20" name="Friday" date="18"/>
+          <day ordinal="21" name="Saturday" date="19"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="20"/>
+          <day ordinal="23" name="Monday" date="21"/>
+          <day ordinal="24" name="Tuesday" date="22"/>
+          <day ordinal="25" name="Wednesday" date="23"/>
+          <day ordinal="26" name="Thursday" date="24"/>
+          <day ordinal="27" name="Friday" date="25"/>
+          <day ordinal="28" name="Saturday" date="26"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="27"/>
+          <day ordinal="30" name="Monday" date="28"/>
+          <day ordinal="31" name="Tuesday" date="29"/>
+          <day ordinal="32" name="Wednesday" date="30"/>
+          <day ordinal="33" name="Thursday" date="31"/>
+          <day ordinal="34" name="Friday" date=""/>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="9" name="September">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date=""/>
+          <day ordinal="5" name="Thursday" date=""/>
+          <day ordinal="6" name="Friday" date="1"/>
+          <day ordinal="7" name="Saturday" date="2"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="3"/>
+          <day ordinal="9" name="Monday" date="4"/>
+          <day ordinal="10" name="Tuesday" date="5"/>
+          <day ordinal="11" name="Wednesday" date="6"/>
+          <day ordinal="12" name="Thursday" date="7"/>
+          <day ordinal="13" name="Friday" date="8"/>
+          <day ordinal="14" name="Saturday" date="9"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="10"/>
+          <day ordinal="16" name="Monday" date="11"/>
+          <day ordinal="17" name="Tuesday" date="12"/>
+          <day ordinal="18" name="Wednesday" date="13"/>
+          <day ordinal="19" name="Thursday" date="14"/>
+          <day ordinal="20" name="Friday" date="15"/>
+          <day ordinal="21" name="Saturday" date="16"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="17"/>
+          <day ordinal="23" name="Monday" date="18"/>
+          <day ordinal="24" name="Tuesday" date="19"/>
+          <day ordinal="25" name="Wednesday" date="20"/>
+          <day ordinal="26" name="Thursday" date="21"/>
+          <day ordinal="27" name="Friday" date="22"/>
+          <day ordinal="28" name="Saturday" date="23"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="24"/>
+          <day ordinal="30" name="Monday" date="25"/>
+          <day ordinal="31" name="Tuesday" date="26"/>
+          <day ordinal="32" name="Wednesday" date="27"/>
+          <day ordinal="33" name="Thursday" date="28"/>
+          <day ordinal="34" name="Friday" date="29"/>
+          <day ordinal="35" name="Saturday" date="30"/>
+        </week>
+        <week ordinal="6">
+          <day ordinal="29" name="Sunday" date="31"/>
+          <day ordinal="30" name="Monday" date=""/>
+          <day ordinal="31" name="Tuesday" date=""/>
+          <day ordinal="32" name="Wednesday" date=""/>
+          <day ordinal="33" name="Thursday" date=""/>
+          <day ordinal="34" name="Friday" date=""/>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="10" name="October">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date="1"/>
+          <day ordinal="3" name="Tuesday" date="2"/>
+          <day ordinal="4" name="Wednesday" date="3"/>
+          <day ordinal="5" name="Thursday" date="4"/>
+          <day ordinal="6" name="Friday" date="5"/>
+          <day ordinal="7" name="Saturday" date="6"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="7"/>
+          <day ordinal="9" name="Monday" date="8"/>
+          <day ordinal="10" name="Tuesday" date="9"/>
+          <day ordinal="11" name="Wednesday" date="10"/>
+          <day ordinal="12" name="Thursday" date="11"/>
+          <day ordinal="13" name="Friday" date="12"/>
+          <day ordinal="14" name="Saturday" date="13"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="14"/>
+          <day ordinal="16" name="Monday" date="15"/>
+          <day ordinal="17" name="Tuesday" date="16"/>
+          <day ordinal="18" name="Wednesday" date="17"/>
+          <day ordinal="19" name="Thursday" date="18"/>
+          <day ordinal="20" name="Friday" date="19"/>
+          <day ordinal="21" name="Saturday" date="20"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="21"/>
+          <day ordinal="23" name="Monday" date="22"/>
+          <day ordinal="24" name="Tuesday" date="23"/>
+          <day ordinal="25" name="Wednesday" date="24"/>
+          <day ordinal="26" name="Thursday" date="25"/>
+          <day ordinal="27" name="Friday" date="26"/>
+          <day ordinal="28" name="Saturday" date="27"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="28"/>
+          <day ordinal="30" name="Monday" date="29"/>
+          <day ordinal="31" name="Tuesday" date="30"/>
+          <day ordinal="32" name="Wednesday" date="31"/>
+          <day ordinal="33" name="Thursday" date=""/>
+          <day ordinal="34" name="Friday" date=""/>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="11" name="November">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date=""/>
+          <day ordinal="5" name="Thursday" date="1"/>
+          <day ordinal="6" name="Friday" date="2"/>
+          <day ordinal="7" name="Saturday" date="3"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="4"/>
+          <day ordinal="9" name="Monday" date="5"/>
+          <day ordinal="10" name="Tuesday" date="6"/>
+          <day ordinal="11" name="Wednesday" date="7"/>
+          <day ordinal="12" name="Thursday" date="8"/>
+          <day ordinal="13" name="Friday" date="9"/>
+          <day ordinal="14" name="Saturday" date="10"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="11"/>
+          <day ordinal="16" name="Monday" date="12"/>
+          <day ordinal="17" name="Tuesday" date="13"/>
+          <day ordinal="18" name="Wednesday" date="14"/>
+          <day ordinal="19" name="Thursday" date="15"/>
+          <day ordinal="20" name="Friday" date="16"/>
+          <day ordinal="21" name="Saturday" date="17"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="18"/>
+          <day ordinal="23" name="Monday" date="19"/>
+          <day ordinal="24" name="Tuesday" date="20"/>
+          <day ordinal="25" name="Wednesday" date="21"/>
+          <day ordinal="26" name="Thursday" date="22"/>
+          <day ordinal="27" name="Friday" date="23"/>
+          <day ordinal="28" name="Saturday" date="24"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="25"/>
+          <day ordinal="30" name="Monday" date="26"/>
+          <day ordinal="31" name="Tuesday" date="27"/>
+          <day ordinal="32" name="Wednesday" date="28"/>
+          <day ordinal="33" name="Thursday" date="29"/>
+          <day ordinal="34" name="Friday" date="30"/>
+          <day ordinal="35" name="Saturday" date=""/>
+        </week>
+      </month>
+      <month ordinal="12" name="December">
+        <week ordinal="1">
+          <day ordinal="1" name="Sunday" date=""/>
+          <day ordinal="2" name="Monday" date=""/>
+          <day ordinal="3" name="Tuesday" date=""/>
+          <day ordinal="4" name="Wednesday" date=""/>
+          <day ordinal="5" name="Thursday" date=""/>
+          <day ordinal="6" name="Friday" date=""/>
+          <day ordinal="7" name="Saturday" date="1"/>
+        </week>
+        <week ordinal="2">
+          <day ordinal="8" name="Sunday" date="2"/>
+          <day ordinal="9" name="Monday" date="3"/>
+          <day ordinal="10" name="Tuesday" date="4"/>
+          <day ordinal="11" name="Wednesday" date="5"/>
+          <day ordinal="12" name="Thursday" date="6"/>
+          <day ordinal="13" name="Friday" date="7"/>
+          <day ordinal="14" name="Saturday" date="8"/>
+        </week>
+        <week ordinal="3">
+          <day ordinal="15" name="Sunday" date="9"/>
+          <day ordinal="16" name="Monday" date="10"/>
+          <day ordinal="17" name="Tuesday" date="11"/>
+          <day ordinal="18" name="Wednesday" date="12"/>
+          <day ordinal="19" name="Thursday" date="13"/>
+          <day ordinal="20" name="Friday" date="14"/>
+          <day ordinal="21" name="Saturday" date="15"/>
+        </week>
+        <week ordinal="4">
+          <day ordinal="22" name="Sunday" date="16"/>
+          <day ordinal="23" name="Monday" date="17"/>
+          <day ordinal="24" name="Tuesday" date="18"/>
+          <day ordinal="25" name="Wednesday" date="19"/>
+          <day ordinal="26" name="Thursday" date="20"/>
+          <day ordinal="27" name="Friday" date="21"/>
+          <day ordinal="28" name="Saturday" date="22"/>
+        </week>
+        <week ordinal="5">
+          <day ordinal="29" name="Sunday" date="23"/>
+          <day ordinal="30" name="Monday" date="24"/>
+          <day ordinal="31" name="Tuesday" date="25"/>
+          <day ordinal="32" name="Wednesday" date="26"/>
+          <day ordinal="33" name="Thursday" date="27"/>
+          <day ordinal="34" name="Friday" date="28"/>
+          <day ordinal="35" name="Saturday" date="29"/>
+        </week>
+        <week ordinal="6">
+          <day ordinal="36" name="Sunday" date="30"/>
+          <day ordinal="37" name="Monday" date="31"/>
+          <day ordinal="38" name="Tuesday" date=""/>
+          <day ordinal="39" name="Wednesday" date=""/>
+          <day ordinal="40" name="Thursday" date=""/>
+          <day ordinal="41" name="Friday" date=""/>
+          <day ordinal="42" name="Saturday" date=""/>
+        </week>
+      </month>
+    </year>
+  </calendar>
+</calendars>
